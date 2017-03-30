@@ -1,11 +1,48 @@
+/* Dom here, just a quick practice, I wanted a nice full viewport background, great article here: http://sixrevisions.com/css/responsive-background-image */
+
 body {
 	background-color: #87cefa;
 	font-family: 'Titillium Web', Calibri, sans-serif;
+	/*	background-image: url('/img/pexels-photo-219004.jpeg');*/
+	background: url(/img/pexels-photo-219004.jpeg) no-repeat center center fixed; 
+	background-size: cover;
 }
 
 .nav-section {
 	width: 100%;
 	padding: 20% 0;
-	background-image: url('/img/pexels-photo-219004.jpeg');
-	background-size: cover;
 }
+
+nav ul {
+	width: 980px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, .5);
+	text-align: center;
+	/*	not too round!*/
+	border-radius: 35px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 40px 60px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #323642;
+	transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+
+
+
+
+
