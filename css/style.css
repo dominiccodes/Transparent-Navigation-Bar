@@ -1,1 +1,11 @@
+body {
+	background-color: #87cefa;
+	font-family: 'Titillium Web', Calibri, sans-serif;
+}
 
+.nav-section {
+	width: 100%;
+	padding: 20% 0;
+	background-image: url('/img/pexels-photo-219004.jpeg');
+	background-size: cover;
+}
